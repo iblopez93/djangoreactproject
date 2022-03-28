@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente GifGrid Debe de mostrar el componente con datos de useFetchGifs  1`] = `
+<Fragment>
+  <h3>
+    AAA
+  </h3>
+  <div
+    className="card-grid animated fadeIn"
+  >
+    <GridGifItem
+      email="iblopez@gmail.com"
+      id={1}
+      key="1"
+      name="Julio Agoste Jimenez"
+      phone="5452635446"
+      url="http://127.0.0.1:3000/logo192.png"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en el componente GifGrid Debe mostrarse el componente  1`] = `
+<Fragment>
+  <h3>
+    AAA
+  </h3>
+  <div
+    className="card-grid animated fadeIn"
+  >
+    <p
+      className="animated flash"
+    >
+      'Cargando datos ...'
+    </p>
+  </div>
+</Fragment>
+`;
